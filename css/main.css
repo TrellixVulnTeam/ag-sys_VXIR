@@ -1,0 +1,69 @@
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  margin: 0px;
+  padding: 0px; }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem;
+  background-color: black; }
+
+.img-logo {
+  max-height: 75px; }
+
+.lista-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none; }
+
+.item-lista {
+  padding-inline: 1rem; }
+
+.item-lista a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 900; }
+
+footer {
+  background-color: black;
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+  footer div p {
+    font-family: 'Orbitron', sans-serif;
+    color: white; }
+  footer div ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row; }
+    footer div ul li {
+      padding-inline: 1rem; }
+    footer div ul li a {
+      text-decoration: none;
+      color: white;
+      font-family: 'Orbitron', sans-serif; }
+
+main {
+  background-image: url(../public/background.jpg);
+  height: 120vh;
+  max-width: 100vw;
+  background-size: cover; }
+  main section {
+    padding-left: 3rem;
+    padding-top: 5rem; }
+    main section div h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-weight: 900;
+      font-size: 3rem; }
+    main section div p {
+      font-family: 'Orbitron', sans-serif;
+      font-weight: 400;
+      font-size: 1.2rem; }

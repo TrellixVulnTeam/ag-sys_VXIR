@@ -1,0 +1,31 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
+    background-color: black;
+}
+
+.img-logo{
+    max-height: 75px;
+}
+
+.lista-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.item-lista{
+    padding-inline: 1rem;
+}
+
+.item-lista a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+}
